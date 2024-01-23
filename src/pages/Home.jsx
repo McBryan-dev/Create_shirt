@@ -40,7 +40,7 @@ const Home = () => {
                         
                         <motion.div {...headTextAnimation}>
                             <h1 className="head-text rubik font-rubik">
-                                LET'S <br className="xl:block hidden" /> DO IT.
+                                JUST <br className="xl:block hidden" /> SEW IT.
                             </h1>
                         </motion.div>
 

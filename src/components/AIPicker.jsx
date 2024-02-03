@@ -1,7 +1,5 @@
 import React from 'react';
 
-import CustomButton from './CustomButton';
-
 import {SketchPicker} from 'react-color';
 
 import {useSnapshot} from 'valtio';
@@ -13,12 +11,12 @@ const AIPicker = () => {
     const snap = useSnapshot(state);
 
     return (
-        <div className="colorpicker-container ml-2">
+        <div className="absolute left-full ml-3">
 
             <SketchPicker
                 color={snap.color}
                 disableAlpha
-                onchange= {
+                onChange= {
                     (color) => {
                         state.color = color.hex
                     }
